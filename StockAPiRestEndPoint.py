@@ -13,10 +13,11 @@ def ReturnHighestPrice(DataSet):
     company_Name = ""
     highestPrice = -1
     for i in range(1,len(DataSet)):#Starting at 1 due to the first line of data is attribute names
-        if(DataSet[i][2] > highestPrice):
-            highestPrice = DataSet[i][2]
+        if(float(DataSet[i][2]) > highestPrice):
+            highestPrice = float(DataSet[i][2])
             company_Name = DataSet[i][1]
-    return [company_name, highestPrice]
+
+    return [company_Name, highestPrice]
 
 
 
