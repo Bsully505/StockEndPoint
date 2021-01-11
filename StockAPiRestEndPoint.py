@@ -1,4 +1,5 @@
-if __name__  == '__main__':
-    print("hello World")
-    print("reading file")
-#afaifhgaifgha
+if __name__ == '__main__'{
+    Print("hello world");
+    Print("test");
+    print("last test")
+}
