@@ -23,7 +23,6 @@ def ReturnHighestPrice(DataSet):
 if __name__ == '__main__':
 
     f = open("StockData.csv", "r")
-<<<<<<< HEAD
     fL = f.readline()#first line
     totalMatrix = []
     while(not fL == ""):
@@ -34,9 +33,3 @@ if __name__ == '__main__':
     #print(totalMatrix)
     print(Findstats(DataSet = totalMatrix, SearchKey = "ACB"))
     print(ReturnHighestPrice(totalMatrix))
-
-    
-=======
-    print(f.read())
-
->>>>>>> 62d8f8b988c75d648d9fad29a9b1f1840624ce94
