@@ -1,6 +1,5 @@
-if __name__ == '__main__'{
-    Print("hello world");
-    Print("test");
-    Print("last test")
-#afafaf
-}
+if __name__ == '__main__':
+
+    f = open("StockData.csv", "r")
+    print(f.read())
+
